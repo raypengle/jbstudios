@@ -14,8 +14,24 @@ body {
     align-items: center;
   }
   
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   .logo img {
-    max-width: 100px;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
   }
   
   nav ul {
